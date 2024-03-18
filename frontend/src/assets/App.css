@@ -1,0 +1,145 @@
+
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.app-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.upload-container {
+    margin-bottom: 30px;
+}
+
+/* Styles for ImageUploader component */
+.upload-container input[type="file"] {
+    display: none;
+}
+
+.upload-container label {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-container label:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for ColorPalette component */
+.color-palette {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.color-box {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+.upload-container input[type="file"] {
+    display: none;
+}
+
+.upload-heading {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.upload-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+  /* Color Palette */
+.color-palette {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.color-box {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.uploaded-image-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.uploaded-image {
+    max-width: 100%;
+    height: auto;
+}
+.image-container {
+    margin-bottom: 20px;
+}
+
+.color-palette-container {
+    margin-top: 20px;
+}
+
+.palette-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.color-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.color-table th, .color-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.color-table th {
+    background-color: black;
+    color: white;
+}
